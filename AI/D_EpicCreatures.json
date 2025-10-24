@@ -1,0 +1,1108 @@
+{
+    "RowStruct": "/Script/Icarus.EpicCreatures",
+    "Defaults": {
+        "CreatureNames": [],
+        "AISetup": {
+            "RowName": "None",
+            "DataTableName": "D_AISetup"
+        },
+        "AdditionalStats": {}
+    },
+    "GenerateEnum": true,
+    "Rows": [
+        {
+            "Name": "Invalid",
+            "CreatureNames": [
+                ""
+            ]
+        },
+        {
+            "Name": "Mammoth_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Mammoth_Boss-CreatureNames-0\", \"Exctoris\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Mammoth_Boss-CreatureNames-1\", \"Ankhar\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Mammoth_Boss-CreatureNames-2\", \"Archytus\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_Boss"
+            }
+        },
+        {
+            "Name": "PolarBear_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"PolarBear_Boss-CreatureNames-0\", \"Polaris\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"PolarBear_Boss-CreatureNames-1\", \"Blanco\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"PolarBear_Boss-CreatureNames-2\", \"Makknus\")"
+            ],
+            "AISetup": {
+                "RowName": "Polar_Bear_Boss"
+            }
+        },
+        {
+            "Name": "Bear_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Bear_Boss-CreatureNames-0\", \"Brutus\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Bear_Boss-CreatureNames-1\", \"Grute\")"
+            ],
+            "AISetup": {
+                "RowName": "Bear"
+            }
+        },
+        {
+            "Name": "Jaguar_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Jaguar_Boss-CreatureNames-0\", \"Suku\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Jaguar_Boss-CreatureNames-1\", \"Galatea\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Jaguar_Boss-CreatureNames-2\", \"Zenet\")"
+            ],
+            "AISetup": {
+                "RowName": "Jaguar_Boss"
+            }
+        },
+        {
+            "Name": "Sandworm_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_Boss-CreatureNames-0\", \"\\'Memory in Water\\'\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_Boss-CreatureNames-1\", \"\\'Song of Sand\\'\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_Boss-CreatureNames-2\", \"\\'Ancient Shade\\'\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_Boss-CreatureNames-3\", \"\\'Shatters Stone\\'\")"
+            ]
+        },
+        {
+            "Name": "Sandworm_WorldBoss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_WorldBoss-CreatureNames-0\", \"\\'Memory in Water\\'\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_WorldBoss-CreatureNames-1\", \"\\'Song of Sand\\'\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_WorldBoss-CreatureNames-2\", \"\\'Ancient Shade\\'\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Sandworm_WorldBoss-CreatureNames-3\", \"\\'Shatters Stone\\'\")"
+            ],
+            "AdditionalStats": {
+                "(Value=\"BaseSandWormInitialDetectionRadius_+\")": 6500
+            }
+        },
+        {
+            "Name": "AlphaWolf_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"AlphaWolf_Boss-CreatureNames-0\", \"Bakan the Guardian\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"AlphaWolf_Boss-CreatureNames-1\", \"Shakur the Sleeper\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"AlphaWolf_Boss-CreatureNames-2\", \"Kanis the Victor\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Wolf_Boss"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15
+            }
+        },
+        {
+            "Name": "Scorpion_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Scorpion_Boss-CreatureNames-0\", \"Zorum\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Scorpion_Boss-CreatureNames-1\", \"Xiatau\")"
+            ]
+        },
+        {
+            "Name": "Crocodile_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Crocodile_Boss-CreatureNames-0\", \"Broken Tooth\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Crocodile_Boss-CreatureNames-1\", \"Snapping Jaw\")"
+            ],
+            "AISetup": {
+                "RowName": "Crocodile"
+            }
+        },
+        {
+            "Name": "PolarBear_Mother",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"PolarBear_Mother-CreatureNames-0\", \"Den Mother\")"
+            ],
+            "AISetup": {
+                "RowName": "Polar_Bear_Boss"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25
+            }
+        },
+        {
+            "Name": "Scorpian_Armored",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Scorpian_Armored-CreatureNames-0\", \"Armored BloodClaw\")"
+            ],
+            "AISetup": {
+                "RowName": "Scorpion_Armored_Boss"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseAttacksCausePoisonSting_%\")": 75,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMovementSpeed_+%\")": 50
+            }
+        },
+        {
+            "Name": "Follower_Wolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Follower_Wolf-CreatureNames-0\", \"Mature Pack Wolf\")"
+            ],
+            "AISetup": {
+                "RowName": "Wolf_Anchored"
+            }
+        },
+        {
+            "Name": "Poison_Komodo",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Poison_Komodo-CreatureNames-0\", \"Contamination Threat-MEDIUM\")"
+            ],
+            "AISetup": {
+                "RowName": "Komodo"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 300,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseAttacksCauseSlow_%\")": 60,
+                "(Value=\"BaseAttacksCausePoisonStingStackable_%\")": 50,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"BaseMaximumHealth_+%\")": 35,
+                "(Value=\"BasePoisonDamage_+\")": 75,
+                "(Value=\"BaseAttacksCausePoison_%\")": 75,
+                "(Value=\"BaseAttackSpeed_+%\")": 50,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50,
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseMovementSpeed_+%\")": 80
+            }
+        },
+        {
+            "Name": "Poison_Pygmy",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Poison_Rabbit_Variant_Evil-CreatureNames-0\", \"Contamination Threat-LOW\")"
+            ],
+            "AISetup": {
+                "RowName": "Rabbit_Variant_Evil"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 300,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseAttacksCauseSlow_%\")": 50,
+                "(Value=\"BaseAttacksCausePoisonStingStackable_%\")": 50,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"BaseMaximumHealth_+%\")": 35,
+                "(Value=\"BasePoisonDamage_+\")": 50,
+                "(Value=\"BaseAttacksCausePoison_%\")": 50,
+                "(Value=\"BaseAttackSpeed_+%\")": 60,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 35,
+                "(Value=\"BaseMeleeDamage_+%\")": 10,
+                "(Value=\"BaseMovementSpeed_+%\")": 75
+            }
+        },
+        {
+            "Name": "Poison_Bear",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Poison_Bear-CreatureNames-0\", \"Contamination Threat-HIGH\")"
+            ],
+            "AISetup": {
+                "RowName": "Bear_Poison_Anchored"
+            },
+            "AdditionalStats": {
+               "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 300,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseAttacksCauseSlow_%\")": 70,
+                "(Value=\"BaseAttacksCausePoisonStingStackable_%\")": 50,
+                "(Value=\"BaseCreatureSize_+%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 700,
+                "(Value=\"BasePoisonDamage_+\")": 100,
+                "(Value=\"BaseAttacksCausePoison_%\")": 100,
+                "(Value=\"BaseAttackSpeed_+%\")": 60,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 60,
+                "(Value=\"BaseMeleeDamage_+%\")": 30,
+                "(Value=\"BaseMovementSpeed_+%\")": 100
+            }
+        },
+        {
+            "Name": "Mystery_Creature",
+            "CreatureNames": [
+                "INVTEXT(\"?????\")"
+            ],
+            "AISetup": {
+                "RowName": "Bat_Dog"
+            }
+        },
+        {
+            "Name": "Desert_Hunter",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-0\", \"Desert Hunter\")"
+            ],
+            "AISetup": {
+                "RowName": "Desert_Hunter"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseCreatureSize_+%\")": 75,
+                "(Value=\"BaseMovementSpeed_+%\")": -25
+            }
+        },
+        {
+            "Name": "Enraged_Wild_Boar",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Wild_Boar-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Wild_Boar"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 200,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 50,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_Mini_Hippo",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Mini_Hippo-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Mini_Hippo"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 200,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 50,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_Rock_Dog",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Rock_Dog-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Rock_Dog"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 200,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 50,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_Needler",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Needler-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Needler"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 200,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 50,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_Scorpion_Arctic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Scorpion_Arctic-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Scorpion_Arctic"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 200,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 40,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_SnowLeopard",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_SnowLeopard-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_SnowLeopard"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 200,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 40,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_Snow_Striker",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Snow_Striker-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Snow_Striker"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 200,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 40,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_Desert_Striker",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Desert_Striker-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Desert_Striker"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 200,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 40,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_Bear",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_Striker-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Bear"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 100,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 40,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Enraged_PolarBear",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Enraged_PolarBear-CreatureNames-0\", \"Exotic Enraged\")"
+            ],
+            "AISetup": {
+                "RowName": "Enraged_Polar_Bear"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 200,
+                "(Value=\"RedExoticRewardChance_%\")": 400,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseMovementSpeed_+%\")": 40,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 33
+            }
+        },
+        {
+            "Name": "Group15_Killer",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Group15_Killer-CreatureNames-0\", \"Enraged Stalker\")"
+            ],
+            "AISetup": {
+                "RowName": "Snow_Striker"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMovementSpeed_+%\")": 25,
+                "(Value=\"BaseMeleeDamage_+%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Bear",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Bear-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Bear"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 300,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_BlackWolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_BlackWolf-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 300,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_PolarBear",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_PolarBear-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Polar_Bear"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Tusker_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Tusker_Exotic-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Tusker"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"BaseAttacksCauseExoticDebuff_%\")": 25,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Wooly_Zebra_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Wooly_Zebra_Exotic-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Wooly_Zebra"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"BaseAttacksCauseExoticDebuff_%\")": 25,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 30,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 40
+            }
+        },
+        {
+            "Name": "Roaming_Arctic_Moa_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Arctic_Moa_Exotic-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Arctic_Moa"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"BaseAttacksCauseExoticDebuff_%\")": 25,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 300,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Zebra_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Zebra-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Zebra"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 100,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 50,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Roaming_Mammoth_Desert_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Mammoth-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Mammoth_Desert"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 100,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 50,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Roaming_Mammoth_Desert",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Mammoth-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_Desert"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 100,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Mammoth_Arctic_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Mammoth-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Mammoth_Arctic"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 100,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 50,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Roaming_Mammoth",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Mammoth-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Mammoth_Arctic"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 100,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Elephant_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Elephant_Exotic-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Elephant"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 30,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Roaming_Deer_Variant_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Deer_Variant_Exotic-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Deer_Variant"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Roaming_Swamp_Quadruped_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Swamp_Quadruped_Exotic-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_Swamp_Quadruped"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 30,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 40,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Roaming_BlueBack_Lava_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Blueback_Exotic-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_BlueBack_Lava"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 30,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Roaming_BlueBack_Exotic",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Blueback-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Roaming_BlueBack"
+            },
+            "AdditionalStats": {
+                "(Value=\"ChanceToHarvestCreatureTrophiesOnSkinning_%\")": 100,
+                "(Value=\"BaseCreatureSize_+%\")": 150,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 200,
+                "(Value=\"PurpleExoticRewardChance_%\")": 400,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMeleeDamage_+%\")": 30,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 50
+            }
+        },
+        {
+            "Name": "Roaming_Scorpian",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Scorpian-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Scorpion_Armored_Boss"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseAttacksCauseBleed_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Jaguar",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Jaguar-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Jaguar"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Needler",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Needler-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Needler"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Batdog",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Batdog-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Bat_Dog"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "Roaming_Rockdog",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Roaming_Rockdog-CreatureNames-0\", \"Roaming Beast\")"
+            ],
+            "AISetup": {
+                "RowName": "Rock_Dog"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseHealthRegen_+%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 100,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 25
+            }
+        },
+        {
+            "Name": "LavaHunter",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"LavaHunter-CreatureNames-0\", \"Little Friend??\")"
+            ]
+        },
+        {
+            "Name": "Daisy",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Daisy-CreatureNames-0\", \"Daisy\")"
+            ],
+            "AISetup": {
+                "RowName": "Quest_Blueback_Daisy"
+            },
+            "AdditionalStats": {
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1
+            }
+        },
+        {
+            "Name": "Landshark",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Landshark-CreatureNames-0\", \"Landshark\")"
+            ],
+            "AISetup": {
+                "RowName": "LandShark"
+            }
+        },
+        {
+            "Name": "Starving_Scorpion",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Starving_Scorpion-CreatureNames-0\", \"Insatiable Bloodclaw\")"
+            ],
+            "AISetup": {
+                "RowName": "Scorpion_Armored_Boss"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+                "(Value=\"BaseAttacksCausePoisonSting_%\")": 75,
+                "(Value=\"BaseMaximumHealth_+%\")": 500,
+                "(Value=\"BaseMovementSpeed_+%\")": 50,
+                "(Value=\"BaseMeleeDamageResistance_%\")": -50
+            }
+        },
+        {
+            "Name": "Exotic_Infused",
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 30,
+                "(Value=\"ExoticRewardType_Enum\")": 1,
+                "(Value=\"BasePurpleExoticRewardChance_%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 30,
+                "(Value=\"BaseAttacksCauseExoticDebuff_%\")": 25
+            }
+        },
+        {
+            "Name": "RedExotic_Infused",
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 35,
+                "(Value=\"ExoticRewardType_Enum\")": 2,
+                "(Value=\"BaseRedExoticRewardChance_%\")": 100,
+                "(Value=\"BaseMaximumHealth_+%\")": 30,
+                "(Value=\"BaseAttacksCauseRedExoticDebuff_%\")": 25
+            }
+        },
+        {
+            "Name": "Mange_Wolf",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Mange_Wolf-CreatureNames-0\", \"Skulmutt Prime\")"
+            ],
+            "AISetup": {
+                "RowName": "Mange_Wolf_Alpha"
+            }
+        },
+        {
+            "Name": "Ice_Mammoth_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Ice_Mammoth_Boss-CreatureNames-0\", \"Rimetusk\")"
+            ],
+            "AISetup": {
+                "RowName": "Ice_Mammoth_Boss"
+            }
+        },
+        {
+            "Name": "LargerCreature",
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 50,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseMovementSpeed_+%\")": -5,
+                "(Value=\"BaseMaximumHealth_+%\")": 20
+            }
+        },
+        {
+            "Name": "HuntingSlugs",
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": 10,
+                "(Value=\"BaseMeleeDamage_+%\")": 25,
+                "(Value=\"BaseMovementSpeed_+%\")": 5,
+                "(Value=\"BasePolarBearExtraDamage_+%\")": 25,
+                "(Value=\"BasePolarBearExtraDamageResistance_+%\")": 75,
+                "(Value=\"BaseSnowWolfExtraDamageResistance_+%\")": 50,
+                "(Value=\"BaseHealthRegen_+%\")": 100,
+                "(Value=\"BaseGOAPMotivationProtectiveDistanceMaximumThreat_+\")": 200,
+                "(Value=\"BaseMaximumHealth_+%\")": 100
+            }
+        },
+        {
+            "Name": "AlphaHyena_Boss",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"AlphaHyena_Boss-CreatureNames-0\", \"The Pack Leader\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Desert_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 25,
+                "(Value=\"BaseMeleeDamageResistance_%\")": 25,
+                "(Value=\"BaseMaximumHealth_+%\")": 200,
+                "(Value=\"BaseMeleeDamage_+\")": 20
+            }
+        },
+        {
+            "Name": "Mother_Moa",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Mother_Moa-CreatureNames-0\", \"The Matriarch\")"
+            ],
+            "AISetup": {
+                "RowName": "Arctic_Moa"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseMaximumHealth_+\")": 2000,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 30,
+                "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 50,
+                "(Value=\"BaseMeleeDamage_+\")": 30
+            }
+        },
+        {
+            "Name": "Kiwi_Hunter",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"Kiwi_Hunter-CreatureNames-0\", \"The Fowler\")"
+            ],
+            "AISetup": {
+                "RowName": "Alpha_Wolf"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 25,
+                "(Value=\"BaseMeleeDamageResistance_%\")": 25,
+                "(Value=\"BaseMaximumHealth_+\")": 2000,
+                "(Value=\"BaseMeleeDamage_+\")": 20
+            }
+        },
+        {
+            "Name": "IceBreaker_Mini",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceBreaker_Mini-CreatureNames-0\", \"Seismic Threat-HIGH\")"
+            ],
+            "AISetup": {
+                "RowName": "Icebreaker_Mini"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseCreatureSize_+%\")": -80,
+                "(Value=\"BaseAttacksCauseDeepWound_%\")": -100,
+                "(Value=\"WorldNPCAggressivePerceptionRadius_+%\")": 250,
+                "(Value=\"CreatureDisplayBossMapIcon_?\")": 1
+            }
+        },
+        {
+            "Name": "IceBreaker",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceBreaker-CreatureNames-0\", \"Jotunfror\")",
+                "NSLOCTEXT(\"D_EpicCreatures\", \"IceBreaker-CreatureNames-1\", \"Hrimthurs\")"
+            ],
+            "AISetup": {
+                "RowName": "IceBreaker"
+            }
+        },
+        {
+            "Name": "SmallNeedler",
+            "AISetup": {
+                "RowName": "Needler"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseProjectileDamage_+%\")": -65,
+                "(Value=\"BaseCreatureSize_+%\")": -60,
+                "(Value=\"BaseMeleeDamage_+%\")": -65,
+                "(Value=\"BaseAttacksCauseDeepWound_%\")": -100,
+                "(Value=\"BasePoisonDamage_+%\")": -50,
+                "(Value=\"BaseMaximumHealth_+%\")": -50
+            }
+        },
+        {
+            "Name": "RockGolem",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"RockGolem-CreatureNames-0\", \"QUARRITE\")"
+            ],
+            "AISetup": {
+                "RowName": "RockGolem"
+            }
+        },
+        {
+            "Name": "GreatApe",
+            "CreatureNames": [
+                "NSLOCTEXT(\"D_EpicCreatures\", \"GreatApe-CreatureNames-0\", \"GARGANUTAN\")"
+            ],
+            "AISetup": {
+                "RowName": "Ape"
+            }
+        }
+    ]
+}
